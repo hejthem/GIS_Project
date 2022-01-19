@@ -13,7 +13,7 @@ var bingRoads = new ol.layer.Tile({
   type: 'base',
   visible: false,
   source: new ol.source.BingMaps({
-    key: 'AoS1kZrQgXQz5Og68YTgyGI9HW0XiZ3xrqOYZglv2X-MyCF1I5Ci3c-RGvvsgZJn',
+    key: '',
     imagerySet: 'Road'
   })
 });
@@ -23,7 +23,7 @@ var bingAerial = new ol.layer.Tile({
   type: 'base',
   visible: false,
   source: new ol.source.BingMaps({
-    key: 'AoS1kZrQgXQz5Og68YTgyGI9HW0XiZ3xrqOYZglv2X-MyCF1I5Ci3c-RGvvsgZJn',
+    key: '',
     imagerySet: 'Aerial'
   })
 });
